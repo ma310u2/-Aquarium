@@ -6,6 +6,10 @@ body {
     max-width:1040px;
     background: #E0F2FF;
 }
+h2.contents-ti {
+    color:white;
+    background: #046EB1;
+}
 div#info-time{
     width: 279px;
     height: 104px;
@@ -31,4 +35,8 @@ div#instagram {
     width: 398px;
     height: 282px;
 
+}
+footer{
+    color:white;
+    background: #046EB1;
 }
