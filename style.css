@@ -1,1 +1,34 @@
+*{
+    margin:0 auto;
+    padding :0;
+}
+body {
+    max-width:1040px;
+    background: #E0F2FF;
+}
+div#info-time{
+    width: 279px;
+    height: 104px;
+}
+div#news{
+    width: 615px;
+    height: 200px;
+}
+div#event{
+    width: 398px;
+    height: 200px;
+}
+div#fee{
+    width: 1040px;
+    height: 225px;
+}
+div#twitter {
+    width: 398px;
+    height: 282px;
 
+}
+div#instagram {
+    width: 398px;
+    height: 282px;
+
+}
