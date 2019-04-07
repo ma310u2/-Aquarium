@@ -4,6 +4,7 @@
 }
 body {
     max-width:1040px;
+    margin:0 auto;
     background: #E0F2FF;
 }
 h2.contents-ti {
