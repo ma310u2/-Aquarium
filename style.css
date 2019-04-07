@@ -122,8 +122,24 @@ div#instagram {
 #link li:last-child{
     margin-bottom:0;
 }
-center{
-    margin:45px;
+#top{
+    margin:50px auto;
+    width:48px;
+    text-align:center;
+}
+.top-line_1,
+.top-line_2 {
+    background-color: #046EB1;
+    width: 29px;
+    height: 4px;
+    display: block;
+    margin-bottom: 8px;
+}
+.top-line_1{
+    transform: translateY(12px) rotate(-45deg);
+    }
+.top-line_2{
+   transform: translateX(18px) rotate(45deg);
 }
 footer{
     color:white;
