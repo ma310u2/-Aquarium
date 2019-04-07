@@ -18,6 +18,15 @@ div#info-time{
     width: 279px;
     height: 104px;
     background-color: white;
+    color: #046EB1;
+    text-align:center;
+}
+p#in-ti {
+    height: 35px;
+    background: #E65B05;
+    color: white;
+    font-weight: bold;
+    line-height: 35px;
 }
 div#info{
     display:flex;
