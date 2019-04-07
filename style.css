@@ -8,6 +8,16 @@ body {
     margin:0 auto;
     background: #E0F2FF;
 }
+#logo {
+    float: left;
+    color:#046EB1;
+}
+#sns-icon{
+    float: right;
+}
+nav{
+    clear: both;
+}
 nav li{
     list-style:none;
     text-align:center;
@@ -32,9 +42,16 @@ nav li{
 h2.contents-ti {
     color:white;
     background: #046EB1;
-    padding-left:15px;
+    padding-left:20px;
+}
+div#top-img {
+    position: relative;
+    margin-bottom:35px;
 }
 div#info-time{
+    position:absolute;
+    top:225px;
+    left:20px;
     width: 279px;
     height: 104px;
     background-color: white;
