@@ -9,10 +9,25 @@ body {
 }
 nav li{
     list-style:none;
+    text-align:center;
+    font-weight:bold;
+}
+#header-list{
+    display:flex;
+}
+#header-list li{
+    height:60px;
+    width:20%;
+    line-height:60px;
+    text-shadow: 1px 1px 2px rgba(4, 110, 177, 0.8);
+    color:white;
+    background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%), linear-gradient(180deg, #56ACE2 0%, rgba(255, 255, 255, 0) 0.01%), linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%), #046EB1;
+
 }
 h2.contents-ti {
     color:white;
     background: #046EB1;
+    padding-left:15px;
 }
 div#info-time{
     width: 279px;
@@ -30,18 +45,28 @@ p#in-ti {
 }
 div#info{
     display:flex;
+    margin-bottom:105px;
 }
 div#news{
     width: 615px;
     height: 200px;
+    background-color:white;
 }
 div#event{
     width: 398px;
     height: 200px;
+    margin-left:27px;
+    background-color:white;
 }
 div#fee{
     width: 1040px;
     height: 225px;
+    background-color:white;
+    margin-bottom:105px;
+}
+div#fee h2{
+    padding:0;
+    text-align:center;
 }
 div#sns-link{
     display:flex
@@ -49,20 +74,24 @@ div#sns-link{
 div#twitter {
     width: 398px;
     height: 282px;
+    background-color:white;
 
 }
 div#instagram {
     width: 398px;
     height: 282px;
+    background-color:white;
+    margin-left:27px;
 
+}
+#link{
+    margin-left:28px;
 }
 #link li{
     line-height: 50px;
     margin-bottom:8px;
     width:190px;
     height:50px;
-    font-weight: bold;
-    text-align:center;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
     color: #046EB1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -72,6 +101,9 @@ div#instagram {
 }
 #link li:last-child{
     margin-bottom:0;
+}
+center{
+    margin:45px;
 }
 footer{
     color:white;
