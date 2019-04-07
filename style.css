@@ -14,6 +14,7 @@ nav li{
 }
 #header-list{
     display:flex;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #header-list li{
     height:60px;
@@ -46,27 +47,42 @@ p#in-ti {
 div#info{
     display:flex;
     margin-bottom:105px;
+   
 }
 div#news{
     width: 615px;
     height: 200px;
     background-color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 div#event{
     width: 398px;
     height: 200px;
     margin-left:27px;
     background-color:white;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 div#fee{
     width: 1040px;
     height: 225px;
     background-color:white;
     margin-bottom:105px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 div#fee h2{
     padding:0;
     text-align:center;
+}
+.menu-list-in{
+    font-weight:bold;
+    display:flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 22px;
+}
+.menu-list-in:first-child{
+    margin-top:10px;
 }
 div#sns-link{
     display:flex
@@ -75,6 +91,7 @@ div#twitter {
     width: 398px;
     height: 282px;
     background-color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 div#instagram {
@@ -82,6 +99,7 @@ div#instagram {
     height: 282px;
     background-color:white;
     margin-left:27px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 #link{
