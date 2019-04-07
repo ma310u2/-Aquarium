@@ -36,6 +36,7 @@ div#info-time{
     background-color: white;
     color: #046EB1;
     text-align:center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 p#in-ti {
     height: 35px;
