@@ -1,10 +1,10 @@
 $(function () {
 
-$('#wave').wavify({
+var myWave = $('#wave').wavify({
   height: 60,
   bones: 3,
   amplitude: 40,
-  color: '#0bd',
+  color: 'rgba(150, 97, 255, .8)',
   speed: .25
 });
 });
