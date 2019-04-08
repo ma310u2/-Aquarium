@@ -1,4 +1,4 @@
-$(function () {
+
 $('#wave').wavify({
   height: 60,
   bones: 3,
@@ -6,4 +6,4 @@ $('#wave').wavify({
   color: '#0bd',
   speed: .25
 });
-});
+
