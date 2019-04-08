@@ -4,7 +4,7 @@ var myWave = $('#wave').wavify({
   height: 60,
   bones: 3,
   amplitude: 40,
-  color: 'rgba(150, 97, 255, .8)',
+  color: '#0bd',
   speed: .25
 });
 });
