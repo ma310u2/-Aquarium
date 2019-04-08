@@ -1,4 +1,4 @@
-
+$(function () {
 
 var myWave = $('#wave').wavify({
   height: 60,
@@ -6,4 +6,5 @@ var myWave = $('#wave').wavify({
   amplitude: 40,
   color: 'rgba(150, 97, 255, .8)',
   speed: .25
+});
 });
