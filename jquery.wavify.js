@@ -6,4 +6,4 @@ $('#wave').wavify({
   color: '#0bd',
   speed: .25
 });
-  });
+});
