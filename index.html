@@ -1,144 +1,153 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-   
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.wavify.js"></script>
-    
+
     <script src="jquery.wavify.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div id="logo">
-        <img src="水族館/icon_049180.png" width="53" height="45">
-      <h1>架空水族館</h1>
-      </div>
-      
-      <div id="sns-icon">
-        <img src="水族館/facebook_□1.png" width="45" height="45">
-        <img src="水族館/icon_017890.png" width="45" height="45">
-        <img src="水族館/icon_062480.png" width="45" height="45">
-      </div>
-      
-      <nav>
-        <ul id="header-list">
-          <li>営業時間・料金</li>
-          <li>イベント</li>
-          <li>ショーイベント</li>
-          <li>ショップガイド</li>
-          <li>エリアマップ</li>
-        </ul>
-      </nav>
- 
+        <div id="logo">
+            <img src="水族館/icon_049180.png" width="53" height="45">
+            <h1>架空水族館</h1>
+        </div>
+
+        <div id="sns-icon">
+            <img src="水族館/facebook_□1.png" width="45" height="45">
+            <img src="水族館/icon_017890.png" width="45" height="45">
+            <img src="水族館/icon_062480.png" width="45" height="45">
+        </div>
+
+        <nav>
+            <ul id="header-list">
+                <li>営業時間・料金</li>
+                <li>イベント</li>
+                <li>ショーイベント</li>
+                <li>ショップガイド</li>
+                <li>エリアマップ</li>
+            </ul>
+        </nav>
+
     </header>
-        <div id="top-img">
-          <img src="水族館/whale-shark-281498_1920.jpg" width="1040" height="360">
-          <div id="info-time">
+    <div id="top-img">
+        <img src="水族館/whale-shark-281498_1920.jpg" width="1040" height="360">
+        <div id="info-time">
             <p id="in-ti">本日の営業時間</p>
             <h2>10：00 ～ 18：00</h2>
-            <small><p>最終入場（17：30まで）</p></small>
-          </div>
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path id="wave" d=""/></svg>
+            <small>
+                <p>最終入場（17：30まで）</p>
+            </small>
         </div>
-        <div id="info">
-      <div id="news">
-        <div class="contents-ti">
-          <img class="icon-h2" src="水族館/news.png" width="35"  height="35">
-        <h2>ニュース</h2>
-        </div>
-        </div>
-      </div>
-
-      <div id="event">
-        <div class="contents-ti">
-        <img class="icon-h2" src="水族館/icon_033760.png" width="35"  height="35">
-        <h2>本日のショーイベント</h2>
-        </div>
-      </div>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs></defs>
+            <path id="wave" d="" />
+        </svg>
     </div>
-      
-      <div id="fee">
+    <div id="info">
+        <div id="news">
+            <div class="contents-ti">
+                <img class="icon-h2" src="水族館/news.png" width="35" height="35">
+                <h2>ニュース</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="event">
         <div class="contents-ti">
-        <h2>入場料金</h2>
+            <img class="icon-h2" src="水族館/icon_033760.png" width="35" height="35">
+            <h2>本日のショーイベント</h2>
         </div>
-          <div id="menu-list">
-            <div class="menu-list-in">
-              <div class="menu-name">
-                <span>大人（高校生以上）</span>
-              </div>
-              <div class="menu-price">
-                <span>800円（税込）</span>
-              </div>
-            </div>
-            <div class="menu-list-in">
-              <div class="menu-name">
-                <span>中学生・小学生</span>
-              </div>
-              <div class="menu-price">
-                <span>400円（税込）</span>
-              </div>
-            </div>
-            <div class="menu-list-in">
-              <div class="menu-name">
-                <span>幼児（4歳以上）</span>
-              </div>
-              <div class="menu-price">
-                <span>200円（税込）</span>
-              </div>
-            </div>
-            <div class="menu-list-in">
-              <div class="menu-name">
-                <span>シルバー（65歳以上）</span>
-              </div>
-              <div class="menu-price">
-                <span>700円（税込）</span>
-              </div>
-            </div>
-          </div>
+    </div>
+
+    <div id="fee">
+        <div class="contents-ti">
+            <h2>入場料金</h2>
         </div>
-        <div id="sns-link">
-          <div id="twitter">
-            <div class="contents-ti">
-            <img class="icon-h2" src="水族館/icon_017880.png" width="35"  height="35">
-            <h2 >Twitter</h2>
+        <div id="menu-list">
+            <div class="menu-list-in">
+                <div class="menu-name">
+                    <span>大人（高校生以上）</span>
+                </div>
+                <div class="menu-price">
+                    <span>800円（税込）</span>
+                </div>
             </div>
-          </div>
-      
-          <div id="instagram">
-            <div class="contents-ti">
-            <img class="icon-h2" src="水族館/icon_062470.png" width="35" height="35">
-            <h2>Instagram</h2>
+            <div class="menu-list-in">
+                <div class="menu-name">
+                    <span>中学生・小学生</span>
+                </div>
+                <div class="menu-price">
+                    <span>400円（税込）</span>
+                </div>
             </div>
-          </div>
-          <nav>
+            <div class="menu-list-in">
+                <div class="menu-name">
+                    <span>幼児（4歳以上）</span>
+                </div>
+                <div class="menu-price">
+                    <span>200円（税込）</span>
+                </div>
+            </div>
+            <div class="menu-list-in">
+                <div class="menu-name">
+                    <span>シルバー（65歳以上）</span>
+                </div>
+                <div class="menu-price">
+                    <span>700円（税込）</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sns-link">
+        <div id="twitter">
+            <div class="contents-ti">
+                <img class="icon-h2" src="水族館/icon_017880.png" width="35" height="35">
+                <h2>Twitter</h2>
+            </div>
+        </div>
+
+        <div id="instagram">
+            <div class="contents-ti">
+                <img class="icon-h2" src="水族館/icon_062470.png" width="35" height="35">
+                <h2>Instagram</h2>
+            </div>
+        </div>
+        <nav>
             <ul id="link">
-              <li>年間パスポート</li>
-              <li>団体でのご利用</li>
-              <li>アクセスマップ</li>
-              <li>よくある質問</li>
-              <li>採用情報</li>
+                <li>年間パスポート</li>
+                <li>団体でのご利用</li>
+                <li>アクセスマップ</li>
+                <li>よくある質問</li>
+                <li>採用情報</li>
             </ul>
-          </nav>
-        </div>
-        <div id="top">
-          <a href="#logo">
+        </nav>
+    </div>
+    <div id="top">
+        <a href="#logo">
             <span class="top-line_1"></span>
             <span class="top-line_2"></span>
             <p>Top</p>
-          </a>
-        </div>
-        <footer>
-          <img src="水族館/icon_0491801.png" width="53" height="45">
-          <h1>架空水族館</h1>
-          <p>住所</p>
-          <p>電話番号</p>
-          <p>メールアドレス</p>
-          <small><p>コピーライト</p></small>
-        </footer>
-        </body>
-      </html>
+        </a>
+    </div>
+    <footer>
+        <img src="水族館/icon_0491801.png" width="53" height="45">
+        <h1>架空水族館</h1>
+        <p>住所</p>
+        <p>電話番号</p>
+        <p>メールアドレス</p>
+        <small>
+            <p>コピーライト</p>
+        </small>
+    </footer>
+</body>
+
+</html>
