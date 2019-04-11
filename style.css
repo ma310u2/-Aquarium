@@ -4,10 +4,10 @@
     padding :0;
 }
 svg {
-  height: 250px;
-  width: 1040px;
+  height: 200px;
+  width: 100%;
   position: absolute;
-  top: 110px;
+  top: 160px;
   left: 0;
 }
 body {
@@ -47,6 +47,9 @@ nav li{
         linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%), 
         #046EB1;
 
+}
+#header-list li:hover{
+    background:#046EB1;
 }
 .contents-ti {
     color:white;
@@ -160,6 +163,10 @@ div#instagram {
 }
 #link li:last-child{
     margin-bottom:0;
+}
+#link li:hover{
+    opacity:0.5;
+    box-shadow:none;
 }
 #top{
     margin:50px auto;
