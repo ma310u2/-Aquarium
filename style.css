@@ -23,6 +23,7 @@ body {
     float: left;
     color:#046EB1;
     display: flex;
+    padding-left:20px;
 }
 #sns-icon{
     float: right;
@@ -212,4 +213,17 @@ footer{
 #footer-in{
     max-width:1040px;
     margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+footer #logo{
+    float: none;
+    color:white;
+}
+#footer-text p{
+    padding-left:20px;
+    margin:8px 0;
+}
+small p{
+    text-align:center;
+    margin-top: 15px;
 }
