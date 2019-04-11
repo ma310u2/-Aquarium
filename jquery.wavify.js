@@ -1,7 +1,7 @@
 $(function () {
 
 var myWave = $('#wave-1').wavify({
-  height: 80,
+  height: 60,
   bones: 3,
   amplitude: 40,
   color: 'rgb(0,187,221,0.5)',
@@ -10,7 +10,7 @@ var myWave = $('#wave-1').wavify({
   var myWave = $('#wave-2').wavify({
   height: 60,
   bones: 3,
-  amplitude: 60,
+  amplitude: 40,
   color: 'rgb(255,255,255,0.5)',
   speed: .25
 });
