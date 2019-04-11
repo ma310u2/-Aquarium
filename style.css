@@ -24,6 +24,7 @@ body {
 #sns-icon{
     float: right;
 }
+
 nav{
     clear: both;
 }
@@ -34,7 +35,7 @@ nav li{
 }
 #header-list{
     display:flex;
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 #header-list li{
     height:60px;
@@ -43,13 +44,13 @@ nav li{
     text-shadow: 1px 1px 2px rgba(4, 110, 177, 0.8);
     color:white;
     background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%), 
-        linear-gradient(180deg, #56ACE2 0%, rgba(255, 255, 255, 0) 0.01%),
         linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%), 
         #046EB1;
 
 }
 #header-list li:hover{
-    background:#046EB1;
+    background:linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%), 
+        #046EB1;
 }
 .contents-ti {
     color:white;
@@ -159,7 +160,7 @@ div#instagram {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%),
                 linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%),
-                #046EB1;;
+                #046EB1;
 }
 #link li:last-child{
     margin-bottom:0;
