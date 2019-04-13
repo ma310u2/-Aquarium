@@ -1,1 +1,50 @@
 
+@media all and (max-width: 850px){
+
+#top-nav{
+    display:none;
+} 
+svg{
+    top: 215px;
+}
+#top-img{
+    position:relative;
+}
+div#info-time{
+    width:100%;
+    position:absolute;
+    top: 310px;
+    left:0;
+} 
+div#info{
+    display:block;
+
+}
+div#news{
+    width:100%;
+}
+.menu-list-in{
+    width:100%;
+}
+
+div#event{
+    width:100%;
+    margin-left:0;
+}
+div#sns-link{
+    display:block;
+}
+div#twitter{
+    width:100%;
+}
+div#instagram{
+    width:100%;
+    margin-left:0;
+}
+#link{
+    margin-left:0;
+}
+#link li{
+    width:100%;
+}        
+}
