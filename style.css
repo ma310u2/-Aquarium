@@ -30,7 +30,9 @@ body {
     float: right;
     padding-right: 20px;
 }
-
+#menu-icon{
+    display:none:
+}
 #top-nav{
     background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%), 
     linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%), 
