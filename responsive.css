@@ -1,6 +1,30 @@
 
 @media all and (max-width: 850px){
+    body{
+        font-size:15px;
+    }
+#logo{
+    font-size:10px;
+    padding-left:5px;
+}
+#logo img{
+    width:25px;
+    height:25px;
+}
+#sns-icon img{
+    width:25px;
+    height:25px;
+}
+img.icon-h2{
+    width:20px;
+    height:20px;
+    padding-top:2px;
+    padding-left:5px;
 
+}
+.contents-ti h2{
+    font-size:17px;
+}
 #top-nav{
     display:none;
 } 
@@ -16,12 +40,17 @@ div#info-time{
     top: 310px;
     left:0;
 } 
+p#in-ti{
+    font-size:17px;
+}
 div#info{
     display:block;
+    margin-bottom:80px;
 
 }
 div#news{
     width:100%;
+    margin-bottom:50px
 }
 .menu-list-in{
     width:100%;
@@ -34,17 +63,26 @@ div#event{
 div#sns-link{
     display:block;
 }
+div#fee{
+    margin-bottom:80px;
+}
 div#twitter{
     width:100%;
+    margin-bottom:50px;
 }
 div#instagram{
     width:100%;
     margin-left:0;
+    margin-bottom:80px
 }
 #link{
     margin-left:0;
 }
 #link li{
     width:100%;
+}
+#footer-text p{
+    padding-left:5px;
 }        
 }
+
