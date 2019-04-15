@@ -28,9 +28,27 @@ img.icon-h2{
 .contents-ti h2{
     font-size: 20px;
 }
-#menu-icon{
+.menu-icon{
     display:block;
+    background-color:#E65B05;
+    padding:10px;
+    padding-bottom:5px;
+    border-radius:30px;
+    position:absolute;
+    top:50px;
+    right:5px;
+    z-index:2;
 }
+    .line_1,
+    .line_2,
+    .line_3 {
+
+        width: 26px;
+        height: 3px;
+        background-color: white;
+        display: block;
+        margin-bottom: 8px;
+    }
 #top-nav{
     display:none;
 } 
