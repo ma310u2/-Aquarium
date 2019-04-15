@@ -18,6 +18,7 @@ body {
 #title-bar{
     max-width:1040px;
     margin:0 auto;
+    padding-top: 7px;
 }
 #logo {
     float: left;
@@ -27,6 +28,7 @@ body {
 }
 #sns-icon{
     float: right;
+    padding-right: 20px;
 }
 
 #top-nav{
@@ -94,15 +96,18 @@ div#info-time{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index:2;
 }
-
-
+div#info-time h2{
+    padding-top:5px;
+}
+div#info-time small p{
+    margin-top:-5px;
+}
 p#in-ti {
     height: 35px;
     background: #E65B05;
     color: white;
     font-weight: bold;
-    line-height: 35px;
-
+    line-height: 37px;
 }
 div#info{
     display:flex;
