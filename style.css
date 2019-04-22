@@ -3,8 +3,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
+header{
+    position:fixed;
+    width:100%;
+    z-index:3;
+}
 svg {
     height: 200px;
     width: 100%;
@@ -21,8 +26,10 @@ body {
 #title-bar {
     max-width: 1040px;
     margin: 0 auto;
-    padding-top: 7px;
+    padding: 7px 0;
     position: relative;
+    height: 61px;
+    background-color: rgb(255,255,255,0.9);
 }
 
 #logo {
@@ -43,10 +50,9 @@ body {
 
 #top-nav {
     background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%),
-        linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%),
-        #046EB1;
+                linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%),
+               rgb(4, 110, 177,0.9);
     clear: both;
-
 }
 
 nav li {
@@ -75,7 +81,7 @@ nav li {
 
 #header-list li:hover {
     background: linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%),
-        #046EB1;
+              #046EB1;
 }
 
 main {
@@ -96,7 +102,8 @@ main {
 
 div#top-img {
     position: relative;
-    margin-bottom: 40px;
+    top: 121px;
+    margin-bottom: 167px;
 }
 
 div#top-img img {
