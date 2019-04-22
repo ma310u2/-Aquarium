@@ -26,7 +26,7 @@ body {
 #title-bar {
     max-width: 1040px;
     margin: 0 auto;
-    padding: 7px 0;
+    padding: 6px 0;
     position: relative;
     height: 61px;
     background-color: rgb(224, 242, 255,0.9);
@@ -102,7 +102,7 @@ main {
 
 div#top-img {
     position: relative;
-    top: 121px;
+    top: 120px;
     margin-bottom: 167px;
 }
 
