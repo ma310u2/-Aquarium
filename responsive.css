@@ -21,8 +21,7 @@
     }
 
     #sns-icon {
-        padding-right: 5px;
-        right: 10%;
+        right: 14%;
         top: 17%;
     }
 
@@ -49,7 +48,7 @@
         margin-right: 6px;
         border-radius: 30px;
         position: absolute;
-        top: 18%;
+        top: 11%;
         right: 0px;
         z-index: 6;
         transition: .5s;
@@ -62,9 +61,8 @@
     }
     .line_1,
     .line_2,
-    .line_3 {width: 5.5vw;height: 0.29vw;background-color: white;display: block;margin-bottom: 1.2vw;}
-    .line_1{
-    }
+    .line_3 {width: 6.5vw;height: 0.5vw;background-color: white;display: block;margin-bottom: 1.5vw;}
+
     .line_3{
         margin-bottom:0px;
     }
@@ -73,14 +71,14 @@
     }
     .menu-icon.close .line_1 {
         -webkit-transform: translateY(20px) rotate(-45deg);
-        transform: translateY(1.3vw) translateX(0px) rotate(-45deg);
+        transform: translateY(2vw) translateX(0px) rotate(-45deg);
     }
     .menu-icon.close .line_2 {
         opacity: 0;
     }
     .menu-icon.close .line_3 {
         -webkit-transform: translateY(-20px) rotate(45deg);
-        transform: translateY(-1.7vw) translateX(0px) rotate(45deg);
+        transform: translateY(-1.9vw) translateX(0px) rotate(45deg);
     }
     #top-nav {
         display: none;
