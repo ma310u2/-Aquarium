@@ -1,17 +1,18 @@
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 751px) {
     #top-nav {
         display: block!important
     }
 
 }
-@media all and (max-width: 850px) {
+@media all and (max-width: 750px) {
     body {
         font-size: 16px;
     }
-    #title-bar{height: 8.2vw;padding: 0;}
+    #title-bar{height: 10.7vw;padding: 0;}
     #logo {
         font-size: 2.7vw;
         padding-left: 5px;
+        top: 18%;
     }
 
     #logo img {
@@ -22,6 +23,7 @@
     #sns-icon {
         padding-right: 5px;
         right: 10%;
+        top: 17%;
     }
 
     #sns-icon img {
@@ -43,14 +45,15 @@
     .menu-icon {
         display: block;
         background-color: #E65B05;
-        padding: 1.6vw;
+        padding: 1.7vw;
         margin-right: 6px;
         border-radius: 30px;
         position: absolute;
-        top: 10%;
+        top: 18%;
         right: 0px;
         z-index: 6;
         transition: .5s;
+        transform: translateZ(4px);
     }
     .menu-icon.close{
         background-color:#046EB1;
@@ -106,17 +109,21 @@
         border-bottom:none;
     }
     svg {
-        top: 160px;
+        top: unset;
+        bottom: 7px;
     }
 
     div#top-img {
-    position: unset;
+    position: relative;
+    top: 0;
     margin-bottom: 50px;
+    padding-top: 10.6vw;
     }
 
     div#info-time {
         width: 80%;
-        top: 256px;
+        top: unset;
+        bottom: 7px;
         left: 10%;
         margin: 0 auto;
     }
