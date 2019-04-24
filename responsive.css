@@ -53,10 +53,10 @@
         padding: 1.7vw;
         margin-right: 6px;
         border-radius: 30px;
-        position: fixed;
-        top: 2%;
+        position: absolute;
+        top: 11%;
         right: 0px;
-        z-index: 6;
+        z-index: 10;
         transition: .5s;
         transform: translateZ(4px);
     }
