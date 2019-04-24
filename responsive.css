@@ -56,15 +56,14 @@
         position: absolute;
         top: 11%;
         right: 0px;
-        z-index: 10;
+        z-index: 6;
         transition: .5s;
-        transform: translateZ(4px);
     }
 
     .menu-icon.close {
         background-color: #046EB1;
         -webkit-transform: translateY(0px) translateX(0px) translateZ(0px) rotate(0deg) rotateY(180deg);
-        transform: translateY(0px) translateX(0px)  translateZ(0px) rotate(0deg) rotateY(180deg);
+        transform: translateY(0px) translateX(0px) translateZ(0px) rotate(0deg) rotateY(180deg);
         transition: .5s;
     }
 
