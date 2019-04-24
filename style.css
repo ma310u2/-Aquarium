@@ -5,16 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    position:fixed;
-    width:100%;
-    z-index:3;
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
+
 svg {
     height: 200px;
     width: 100%;
     position: absolute;
-    top: 160px;@charset "utf-8";
+    top: 160px;
+    @charset "utf-8";
 
 
     left: 0;
@@ -31,7 +34,7 @@ body {
     padding: 6px 0;
     position: relative;
     height: 60px;
-    background-color: rgb(224, 242, 255,0.9);
+    background-color: rgb(224, 242, 255, 0.9);
 }
 
 #logo {
@@ -55,8 +58,8 @@ body {
 
 #top-nav {
     background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%),
-                linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%),
-               rgb(4, 110, 177,0.9);
+        linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%),
+        rgb(4, 110, 177, 0.9);
     clear: both;
 }
 
@@ -84,7 +87,7 @@ nav li {
 
 #header-list li:hover {
     background: linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%),
-              #046EB1;
+        #046EB1;
 }
 
 main {
@@ -245,11 +248,22 @@ div#instagram {
     margin: 90px auto 50px;
     width: 48px;
     text-align: center;
+    background-color: #E65B05;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
+#top:hover{
+    box-shadow: none;
+    background-color: #046EB1;
+}
+#top a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
 .top-line_1,
 .top-line_2 {
-    background-color: #046EB1;
+    background-color: white;
     width: 29px;
     height: 4px;
     display: block;
