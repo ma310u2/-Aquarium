@@ -63,7 +63,8 @@
 
     .menu-icon.close {
         background-color: #046EB1;
-        transform: translateY(0px) translateX(0px) rotate(0deg) rotateY(180deg);
+        -webkit-transform: translateY(0px) translateX(0px) rotate(0deg) rotateY(180deg);
+        transform: translateY(0px) translateX(0px)  translateZ(200px) rotate(0deg) rotateY(180deg);
         transition: .5s;
     }
 
