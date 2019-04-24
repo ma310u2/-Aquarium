@@ -62,8 +62,8 @@
 
     .menu-icon.close {
         background-color: #046EB1;
-        -ebkit-transform: translateY(0px) translateX(0px) translateZ(0px) rotate(0deg) rotateY(180deg);
-        ransform: translateY(0px) translateX(0px) translateZ(0px) rotate(0deg) rotateY(180deg);
+        /*-webkit-transform: translateY(0px) translateX(0px) translateZ(0px) rotate(0deg) rotateY(180deg);
+        transform: translateY(0px) translateX(0px) translateZ(0px) rotate(0deg) rotateY(180deg);*/
         transition: .5s;
     }
 
@@ -116,7 +116,7 @@
     #header-list li {
         float: left;
         width: 50%;
-        background: rgb(230, 91, 5, 0.8);
+        background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%), linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%), rgb(4, 110, 177,0.9);
         border-bottom: 2px solid white;
         height: 90px;
         line-height: 90px;
@@ -132,7 +132,7 @@
 
     svg {
         top: unset;
-        bottom: 7px;
+        bottom: 8px;
     }
 
     div#top-img {
@@ -145,7 +145,7 @@
     div#info-time {
         width: 80%;
         top: unset;
-        bottom: 7px;
+        bottom: 8px;
         left: 10%;
         margin: 0 auto;
     }
