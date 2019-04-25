@@ -132,7 +132,7 @@
 
     svg {
         top: unset;
-        bottom: 8px;
+        bottom: 0px;
     }
 
     div#top-img {
@@ -140,12 +140,13 @@
         top: 0;
         margin-bottom: 50px;
         padding-top: 10.6vw;
+        line-height: 0;
     }
 
     div#info-time {
         width: 80%;
         top: unset;
-        bottom: 8px;
+        bottom: 0px;
         left: 10%;
         margin: 0 auto;
     }
