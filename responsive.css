@@ -116,7 +116,7 @@
     #header-list li {
         float: left;
         width: 50%;
-        background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%), linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%), rgb(4, 110, 177,0.9);
+        background: linear-gradient(180deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%), linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%), rgb(4, 110, 177, 0.9);
         border-bottom: 2px solid white;
         height: 90px;
         line-height: 90px;
