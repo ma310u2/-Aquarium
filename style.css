@@ -51,7 +51,9 @@ body {
     top: 10%;
     line-height: 0;
 }
-
+#sns-icon img:hover {
+    opacity: 0.7;
+}
 .menu-icon {
     display: none;
 }
