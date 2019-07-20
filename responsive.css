@@ -22,7 +22,7 @@
         line-height: normal;
     }
       #logo h1 {
-         padding-top: 5px;
+         padding-top: 3px;
     }
     #logo img {
         width: 6vw;
@@ -169,7 +169,7 @@
     }
 
     .menu-list-in {
-        width: 90%;
+        width: 92%;
     }
 
     div#event {
