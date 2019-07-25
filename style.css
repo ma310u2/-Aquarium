@@ -220,6 +220,7 @@ div#show-event {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    padding: 25px 0;
 }
 .show-in {
     width: 40%;
