@@ -216,7 +216,21 @@ div#schedule h2, #fee h2, #show h2 {
 div#show {
     padding-top: 140px;
 }
-
+div#show-event {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.show-in {
+    width: 40%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+.show-in:nth-child(3), .show-in:nth-child(4) {
+    margin-top: 25px;
+}
 div#sns-link {
     display: flex;
     padding-top: 140px;
