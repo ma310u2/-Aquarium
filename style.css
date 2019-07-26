@@ -221,13 +221,16 @@ div#show-event {
     display: flex;
     flex-wrap: wrap;
     padding: 25px 0;
+    justify-content: center;
 }
 .show-in {
     width: 40%;
     height: 150px;
     border-radius: 10px;
     background-color: #ccc;
-    margin: 0 auto;
+}
+.show-in:nth-child(even) {
+    margin-left: 25px;
 }
 .show-in:nth-child(3), .show-in:nth-child(4) {
     margin-top: 25px;
