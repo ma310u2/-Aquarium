@@ -184,6 +184,21 @@
     div#fee {
         margin-bottom: 80px;
     }
+    div#show-event {
+        display: block;
+        justify-content: normal;
+    }
+    .show-in{
+        width:80%;
+        height:200px;
+        margin:35px auto;
+    }
+    .show-in:nth-child(even){
+        margin-left:auto;
+    }
+    .show-in:nth-child(3), .show-in:nth-child(4) {
+        margin-top: 0px;
+    }
 
     div#twitter {
         width: 100%;
