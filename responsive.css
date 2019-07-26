@@ -177,12 +177,17 @@
         margin-left: 0;
     }
 
-    div#sns-link {
-        display: block;
+
+    div#schedule {
+    padding-top: 81px;
     }
 
     div#fee {
         margin-bottom: 80px;
+    }
+
+    div#show{
+        padding-top: 81px;
     }
     div#show-event {
         display: block;
@@ -199,6 +204,12 @@
     .show-in:nth-child(3), .show-in:nth-child(4) {
         margin-top: 0px;
     }
+
+    div#sns-link {
+        display: block;
+
+    }
+    
 
     div#twitter {
         width: 100%;
