@@ -181,6 +181,23 @@
     div#schedule {
     padding-top: 81px;
     }
+    div#time-list {
+        display:block;
+        padding: 20px 0;
+    }
+    .time-list-in{
+        width:80%;
+        margin:0 auto;
+        margin-bottom:20px;
+    }
+    .text-date{
+        text-align:center;
+        
+    }
+    .text-time{
+       
+    }
+
 
     div#fee {
         margin-bottom: 80px;
