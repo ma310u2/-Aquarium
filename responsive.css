@@ -6,7 +6,7 @@
 }
 @media all and (max-width: 775px) {
     .time-list-in{
-        width:80%;
+        width:45%;
         margin:0 auto;
         margin-bottom: 35px;
     }
@@ -190,7 +190,6 @@
     padding-top: 81px;
     }
     div#time-list {
-        display:block;
         padding: 20px 0;
     }
     .time-list-in{
@@ -260,7 +259,10 @@
     }
 }
 @media all and (max-width: 650px) {
+        div#time-list {
+            display:block;
+    }
         .time-list-in{
-        width:80%;
+            width:80%;
     }
 }
