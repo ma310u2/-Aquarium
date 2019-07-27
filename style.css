@@ -194,19 +194,23 @@ div#time-list {
 }
 
 .time-list-in {
-    background-color: aqua;
     width: 30.33%;
     height: 110px;
     border-radius: 5px;
     margin: 10px;
+    background: linear-gradient(0deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%),linear-gradient(180deg, #0596f2 0%, rgba(12, 155, 245, 0.6) 43.75%);
 }
 p.text-date {
-    padding: 10px 5px;
+    padding: 10px;
+    border-bottom: 3px solid white;
+    margin: 0 10px;
+    font-size: 18px;
 }
 p.text-time {
     text-align: center;
     font-weight: bold;
-    padding: 5px 0;
+    padding: 15px 0;
+    font-size: 24px;
 }
 
 div#fee {
