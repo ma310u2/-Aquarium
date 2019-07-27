@@ -6,6 +6,9 @@
 }
 @media all and (max-width: 775px) {
     .time-list-in{
+        width:80%;
+        margin:0 auto;
+        margin-bottom: 35px;
     }
     
 }
@@ -254,5 +257,10 @@
 
     #footer-text p {
         padding-left: 5px;
+    }
+}
+@media all and (max-width: 650px) {
+        .time-list-in{
+        width:80%;
     }
 }
