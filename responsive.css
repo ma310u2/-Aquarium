@@ -4,6 +4,11 @@
     }
 
 }
+@media all and (max-width: 775px) {
+    .time-list-in{
+    }
+    
+}
 
 @media all and (max-width: 750px) {
     body {
