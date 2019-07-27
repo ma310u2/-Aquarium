@@ -191,13 +191,14 @@ div#time-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 30px 0;
 }
 
 .time-list-in {
-    width: 30.33%;
+    width: 28%;
     height: 110px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 20px;
     background: linear-gradient(0deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%),linear-gradient(180deg, #0596f2 0%, rgba(12, 155, 245, 0.6) 43.75%);
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25),4px 0px 4px rgba(0, 0, 0, 0.25),-4px 0px 4px rgba(0, 0, 0, 0.25);
 }
