@@ -208,6 +208,9 @@
     div#fee {
         margin-bottom: 80px;
     }
+    .menu-name {
+        width: 60%;
+    }
 
     div#show{
         padding-top: 81px;
