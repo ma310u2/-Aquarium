@@ -10,6 +10,9 @@
         margin:0 auto;
         margin-bottom: 35px;
     }
+    .time-list-in:nth-child(-n+2) {
+    margin-top: 20px;
+    }
     .text-date{
         text-align:center;
         
@@ -271,5 +274,8 @@
     }
         .time-list-in{
             width:80%;
+    }
+    .time-list-in:first-child {
+        margin-top: 20px;
     }
 }
