@@ -182,6 +182,7 @@
     .menu-list-in {
         width: 95%;
     }
+    
 
     div#event {
         width: 100%;
@@ -210,6 +211,10 @@
     }
     .menu-name {
         width: 60%;
+    }
+    .menu-price {
+        width: 40%;
+        text-align: right;
     }
 
     div#show{
