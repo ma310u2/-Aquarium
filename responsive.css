@@ -211,6 +211,7 @@
 
     div#fee {
         margin-bottom: 80px;
+        margin-top: 161px;
     }
     .menu-name {
         width: 60%;
@@ -241,7 +242,7 @@
 
     div#sns-link {
         display: block;
-
+        padding-top: 161px;
     }
     
 
@@ -253,7 +254,7 @@
     div#instagram {
         width: 100%;
         margin-left: 0;
-        margin-bottom: 80px
+        margin-bottom: 50px;
     }
 
     #link {
