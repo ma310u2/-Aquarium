@@ -226,7 +226,9 @@ div#fee {
 div#schedule h2, #fee h2, #show h2 {
     margin: auto;
 }
-
+div#menu-list {
+    padding-bottom: 5px;
+}
 .menu-list-in {
     font-weight: bold;
     display: flex;
