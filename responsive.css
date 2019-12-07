@@ -194,7 +194,7 @@
 
 
     div#schedule {
-    padding-top: 81px;
+    margin-top: 81px;
     }
     div#time-list {
         padding: 20px 0;
@@ -222,7 +222,7 @@
     }
 
     div#show{
-        padding-top: 81px;
+        margin-top: 81px;
     }
     div#show-event {
         display: block;
