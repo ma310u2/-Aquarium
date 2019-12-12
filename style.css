@@ -181,8 +181,8 @@ div#event {
     background-color: white;
 }
 
-div#schedule {
-    margin-top: 140px;
+div#schedule,#show {
+    padding-top: 140px;
 }
 div#time-list {
     background: white;
@@ -241,9 +241,6 @@ div#menu-list {
     margin-top: 25px;
 }
 
-div#show {
-    margin-top: 140px;
-}
 div#show-event {
     background-color: white;
     display: flex;
@@ -375,5 +372,5 @@ small p {
     text-align: center;
 }
 #news,#event,#schedule,#fee,#show,#twitter,#instagram{
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.15);
 }
