@@ -110,6 +110,7 @@ main {
     color: white;
     background: #046EB1;
     display: flex;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.25);
 }
 
 .contents-ti h2 {
@@ -171,7 +172,6 @@ div#news {
     width: 615px;
     height: 200px;
     background-color: white;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
 }
 
 div#event {
@@ -179,12 +179,10 @@ div#event {
     height: 200px;
     margin-left: 27px;
     background-color: white;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
 }
 
 div#schedule {
     margin-top: 140px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
 }
 div#time-list {
     background: white;
@@ -220,7 +218,6 @@ div#fee {
     height: 100%;
     background-color: white;
     margin-top: 140px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
 }
 
 div#schedule h2, #fee h2, #show h2 {
@@ -246,7 +243,6 @@ div#menu-list {
 
 div#show {
     margin-top: 140px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
 }
 div#show-event {
     background-color: white;
@@ -276,7 +272,6 @@ div#twitter,#instagram {
     width: 398px;
     /* height: 282px; */
     background-color: white;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
     font-family: 'Literata', serif;
 }
 div#instagram{
@@ -378,4 +373,7 @@ footer #logo {
 
 small p {
     text-align: center;
+}
+#news,#event,#schedule,#fee,#show,#twitter,#instagram{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
 }
