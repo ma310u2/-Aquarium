@@ -16,6 +16,7 @@ header {
 a {
     text-decoration: none;
 }
+
 svg {
     height: 200px;
     width: 100%;
@@ -55,9 +56,11 @@ body {
     line-height: 0;
     font-family: none;
 }
+
 #sns-icon img:hover {
     opacity: 0.7;
 }
+
 .menu-icon {
     display: none;
 }
@@ -93,6 +96,7 @@ nav li {
     background: linear-gradient(180deg, #046EB1 0%, rgba(12, 155, 245, 0.6) 43.75%),
         #046EB1;
 }
+
 #header-list a {
     display: inline-block;
     width: 100%;
@@ -180,9 +184,11 @@ div#event {
     background-color: white;
 }
 
-div#schedule,#show {
+div#schedule,
+#show {
     padding-top: 140px;
 }
+
 div#time-list {
     background: white;
     display: flex;
@@ -196,15 +202,17 @@ div#time-list {
     height: 110px;
     border-radius: 5px;
     margin: 20px;
-    background: linear-gradient(0deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%),linear-gradient(180deg, #0596f2 0%, rgba(12, 155, 245, 0.6) 43.75%);
+    background: linear-gradient(0deg, #CEFAFA 0%, rgba(255, 255, 255, 0) 93.75%), linear-gradient(180deg, #0596f2 0%, rgba(12, 155, 245, 0.6) 43.75%);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
 }
+
 p.text-date {
     padding: 10px;
     border-bottom: 3px solid white;
     margin: 0 10px;
     font-size: 18px;
 }
+
 p.text-time {
     text-align: center;
     font-weight: bold;
@@ -219,12 +227,16 @@ div#fee {
     margin-top: 140px;
 }
 
-div#schedule h2, #fee h2, #show h2 {
+div#schedule h2,
+#fee h2,
+#show h2 {
     margin: auto;
 }
+
 div#menu-list {
     padding-bottom: 5px;
 }
+
 .menu-list-in {
     font-weight: bold;
     display: flex;
@@ -247,31 +259,55 @@ div#show-event {
     padding: 25px 0;
     justify-content: center;
 }
+
 .show-in {
     width: 40%;
     height: 150px;
-    border-radius: 10px;
-    background-color: #ccc;
+    position: relative;
 }
+
 .show-in:nth-child(even) {
     margin-left: 25px;
 }
-.show-in:nth-child(3), .show-in:nth-child(4) {
+
+.show-in:nth-child(3),
+.show-in:nth-child(4) {
     margin-top: 25px;
 }
+
+.show-in span {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+    font-size: 22px;
+}
+
+.show-in img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
 div#sns-link {
+    display: flex;
     display: flex;
     padding-top: 140px;
 }
 
-div#twitter,#instagram {
+div#twitter,
+#instagram {
     width: 398px;
     /* height: 282px; */
     background-color: white;
     font-family: 'Literata', serif;
 }
-div#instagram{
-    margin-left:27px;
+
+div#instagram {
+    margin-left: 27px;
     height: 282px;
 }
 
@@ -370,4 +406,3 @@ footer #logo {
 small p {
     text-align: center;
 }
-
