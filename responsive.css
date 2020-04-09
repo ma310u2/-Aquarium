@@ -4,18 +4,21 @@
     }
 
 }
+
 @media all and (max-width: 775px) {
-    .time-list-in{
-        width:45%;
-        margin:0 auto;
+    .time-list-in {
+        width: 45%;
+        margin: 0 auto;
         margin-bottom: 35px;
     }
+
     .time-list-in:nth-child(-n+2) {
-    margin-top: 20px;
+        margin-top: 20px;
     }
-    .text-date{
-        text-align:center;
-        
+
+    .text-date {
+        text-align: center;
+
     }
 }
 
@@ -35,9 +38,11 @@
         top: 18%;
         line-height: normal;
     }
-      #logo h1 {
-         padding-top: 3px;
+
+    #logo h1 {
+        padding-top: 3px;
     }
+
     #logo img {
         width: 6vw;
         height: 6vw;
@@ -185,7 +190,7 @@
     .menu-list-in {
         width: 95%;
     }
-    
+
 
     div#event {
         width: 100%;
@@ -193,29 +198,32 @@
     }
 
 
-    div#schedule,#show {
-    padding-top: 81px;
+    div#schedule,
+    #show {
+        padding-top: 81px;
     }
+
     div#time-list {
         padding: 20px 0;
     }
-    .time-list-in{
-        margin:0 auto;
+
+    .time-list-in {
+        margin: 0 auto;
         margin-bottom: 35px;
     }
 
-    .text-time{
-       
-    }
+    .text-time {}
 
 
     div#fee {
         margin-bottom: 80px;
         margin-top: 161px;
     }
+
     .menu-name {
         width: 60%;
     }
+
     .menu-price {
         width: 40%;
         text-align: right;
@@ -225,15 +233,19 @@
         display: block;
         justify-content: normal;
     }
-    .show-in{
-        width:80%;
-        height:200px;
-        margin:35px auto;
+
+    .show-in {
+        width: 80%;
+        height: 200px;
+        margin: 35px auto;
     }
-    .show-in:nth-child(even){
-        margin-left:auto;
+
+    .show-in:nth-child(even) {
+        margin-left: auto;
     }
-    .show-in:nth-child(3), .show-in:nth-child(4) {
+
+    .show-in:nth-child(3),
+    .show-in:nth-child(4) {
         margin-top: 0px;
     }
 
@@ -241,7 +253,7 @@
         display: block;
         padding-top: 161px;
     }
-    
+
 
     div#twitter {
         width: 100%;
@@ -266,13 +278,16 @@
         padding-left: 5px;
     }
 }
+
 @media all and (max-width: 650px) {
-        div#time-list {
-            display:block;
+    div#time-list {
+        display: block;
     }
-        .time-list-in{
-            width:80%;
+
+    .time-list-in {
+        width: 80%;
     }
+
     .time-list-in:first-child {
         margin-top: 20px;
     }
