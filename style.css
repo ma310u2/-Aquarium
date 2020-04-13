@@ -179,9 +179,19 @@ div#news {
 
 div#event {
     width: 398px;
-    height: 200px;
+
     margin-left: 27px;
     background-color: white;
+}
+
+div#event .text-show {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+div#event .text-time {
+    padding-bottom: 20px;
 }
 
 div#schedule,
