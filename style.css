@@ -176,6 +176,26 @@ div#news {
     height: 200px;
     background-color: white;
 }
+.news-in {
+    background-color: #fff;
+    border-bottom: 2px dashed #E65B05;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    font-size: 15px;
+}
+
+.news-date {
+    width: 25%;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.news-text {
+    width: 75%;
+}
+
 
 div#event {
     width: 398px;
@@ -217,10 +237,11 @@ div#time-list {
 }
 
 p.text-date {
-    padding: 10px;
+    padding: 10px 0px;
     border-bottom: 3px solid white;
     margin: 0 10px;
     font-size: 18px;
+    text-align: center;
 }
 
 p.text-time {
@@ -411,8 +432,10 @@ footer #logo {
 #footer-text p {
     padding-left: 20px;
     margin: 8px 0;
+    line-height: 1.4;
 }
 
 small p {
     text-align: center;
 }
+
