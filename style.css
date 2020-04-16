@@ -176,6 +176,7 @@ div#news {
     height: 200px;
     background-color: white;
 }
+
 .news-in {
     background-color: #fff;
     border-bottom: 2px dashed #E65B05;
@@ -186,6 +187,10 @@ div#news {
     font-size: 15px;
 }
 
+.news-in:last-child {
+    border-bottom: none;
+}
+
 .news-date {
     width: 25%;
     margin: 0 15px;
@@ -194,12 +199,12 @@ div#news {
 
 .news-text {
     width: 75%;
+    padding-right: 20px;
 }
 
 
 div#event {
     width: 398px;
-
     margin-left: 27px;
     background-color: white;
 }
@@ -332,14 +337,12 @@ div#sns-link {
 div#twitter,
 #instagram {
     width: 398px;
-    /* height: 282px; */
     background-color: white;
     font-family: 'Literata', serif;
 }
 
 div#instagram {
     margin-left: 27px;
-    height: 282px;
 }
 
 
@@ -438,4 +441,3 @@ footer #logo {
 small p {
     text-align: center;
 }
-
